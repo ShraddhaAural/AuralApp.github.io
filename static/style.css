@@ -1,0 +1,184 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand img {
+    max-height: 100px; 
+    margin-left: 20px;
+    margin-right: 1px; 
+    padding-right: 1px;
+}
+
+.heading {
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.tagline {
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-style: italic;
+    font-size: 26px;
+}
+
+.normal-text {
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 26px;
+}
+
+.orange-text {
+    color: #FB9600;
+    font-weight: bold;
+}
+
+.blue-text {
+    color: #076476;
+    font-weight: bold;
+}
+
+.carousel{
+    max-width: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.world-map {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.icon-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.icon-box img {
+    width: 100px; 
+    height: 100px;
+    margin-bottom: 10px;
+}
+  
+.content-box {
+    margin-bottom: 30px;
+}
+
+
+.black-arrow {
+    color: black; 
+    font-size: 2rem; 
+}
+  
+ 
+.carousel-control-prev, .carousel-control-next {
+    background-color: transparent; 
+    border: none; 
+}
+  
+.carousel-control-prev:hover .black-arrow, .carousel-control-next:hover .black-arrow {
+    color: rgb(1, 208, 255); 
+}
+
+.profile-photo {
+    max-width: 300px; 
+    max-height: 250px; 
+    width: auto; 
+    height: auto;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+.card .card-image {
+    position: relative;
+  }
+  
+.card img {
+    width: 100%;
+    transition: opacity 0.5s ease;
+  }
+  
+.card .card-text {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    padding: 10px; 
+    color: black; 
+    font-size: 1.2rem;
+    background-color: white; 
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+}
+  
+.card:hover img {
+    opacity: 0;
+}
+  
+.card:hover .card-text {
+    opacity: 1;
+}
+  
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 50px;  
+    padding-right: 50px;
+}
+
+.container-fluid {
+    background-color: rgba(251, 150, 0, 0.1); 
+}
+
+.org-logo {
+    width: 100%; 
+    height: auto; 
+    max-width: 200px; 
+    max-height: 200px; 
+    object-fit: cover; 
+    display: block; 
+    margin: auto; 
+}
+
+.org-row {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    align-items: center; 
+}
+
+.form-button {
+    padding: 20px 40px; 
+    font-size: 1.5em; 
+    border-radius: 8px; 
+    margin-right: 20px;
+}
+
+
+
